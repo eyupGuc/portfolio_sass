@@ -72,11 +72,11 @@
   font-weight: 700;
 }
 
-.link-style a, footer.horizontal a {
+.link-style a, footer.vertical .social-icons a, footer.horizontal a {
   padding: 0.4rem;
   transition: all 1s;
 }
-.link-style a:hover, footer.horizontal a:hover {
+.link-style a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
   color: #ff652f;
 }
 
@@ -92,6 +92,14 @@ footer.vertical {
   border: 2px solid red;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+footer.vertical .social-icons {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
 }
 
 .nav {
