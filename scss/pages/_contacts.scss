@@ -13,5 +13,22 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  gap: 2.5rem;
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    font-size: 1.5rem;
+  }
+
+  .text-secondary {
+    color: $secondary-color;
+  }
 }
