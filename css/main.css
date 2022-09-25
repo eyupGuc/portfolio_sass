@@ -89,7 +89,6 @@ footer.horizontal {
 }
 
 footer.vertical {
-  border: 2px solid red;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -100,11 +99,14 @@ footer.vertical .social-icons {
   display: flex;
   flex-direction: column;
   position: fixed;
+  bottom: 1rem;
 }
 footer.vertical .copyright {
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 1rem;
+  right: 3rem;
+  bottom: 1rem;
+  transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
 .nav {
