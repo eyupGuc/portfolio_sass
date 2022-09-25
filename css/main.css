@@ -101,6 +101,11 @@ footer.vertical .social-icons {
   flex-direction: column;
   position: fixed;
 }
+footer.vertical .copyright {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
 
 .nav {
   padding: 1rem;

@@ -32,4 +32,9 @@ footer.vertical {
     position: fixed;
     @extend .link-style;
   }
+  .copyright {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+  }
 }
